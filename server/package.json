@@ -1,0 +1,23 @@
+{
+  "name": "saml-api",
+  "version": "21.1.0",
+  "description": "",
+  "main": "source/server.ts",
+  "scripts": {
+    "build": "rm -rf build && prettier --write source/ && tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "passport": "^0.4.1",
+    "passport-saml": "^2.0.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "@types/express-session": "^1.17.3",
+    "@types/passport": "^1.0.6",
+    "@types/passport-saml": "^1.1.2"
+  }
+}
